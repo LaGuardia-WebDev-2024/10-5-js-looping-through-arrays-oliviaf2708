@@ -12,7 +12,12 @@ setup = function() {
     text("⸙", 420-i, 390);
   }  
 
-  
+  var animals = [ "Dolphin", "Giraffe", "Elephant", "Otter", "Fennec fox"];
+
+for(var i = 0; i < animals.length; i++){
+  text(animals[i], 30, 50+40*i);
+}
+
 };
 
 
